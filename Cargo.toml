@@ -1,0 +1,12 @@
+[package]
+name = "actix-hello"
+version = "1.0.0"
+authors = ["jens.erik.nilsson@gmail.com"]
+edition = "2018"
+
+[dependencies]
+actix-web = "3"
+env_logger = "0.8"
+
+[dev-dependencies]
+actix-rt = "1"
